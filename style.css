@@ -1,23 +1,22 @@
-/* header {
+header {
     background-image: url(img/pattern.png);
     background-color: rgba(78,160,255,255);
-    height: 50x
-    background-size: contain;
+    height: 100px;
+    background-size: 400px;
 }
 
 header img {
-    width: 400px;
-    position: relative;
-    top: 70px;
-} */
-#title {
-    margin-bottom: 0px;
+    width: 200px;
+    height: 130px;
+}
+
+#grey {
+    color: rgb(128,128,128);
 }
 
 .NoMargin {
     margin-top: 0px;
     margin-bottom: 0px;
-    color: rgb(128,128,128);
 }
 
 #writer {
