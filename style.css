@@ -1,0 +1,42 @@
+/* header {
+    background-image: url(img/pattern.png);
+    background-color: rgba(78,160,255,255);
+    height: 50x
+    background-size: contain;
+}
+
+header img {
+    width: 400px;
+    position: relative;
+    top: 70px;
+} */
+#title {
+    margin-bottom: 0px;
+}
+
+.NoMargin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(128,128,128);
+}
+
+#writer {
+    color: rgb(77,188,236);
+}
+
+.underline {
+    background-color: rgb(255,255,0);
+}
+
+th, td {
+    text-align: left;
+    width: 15%;
+}
+
+#header {
+    background-color: rgb(32,169,229);
+}
+
+tr:nth-child(odd) {
+    background-color:rgb(177,229,242);
+}
