@@ -4,38 +4,38 @@ header {
     height: 100px;
     background-size: 400px;
 }
-
-header img {
+/* DIMENSIONI LOGO */
+#logo {
     width: 200px;
     height: 130px;
 }
-
+/* COLORE GRIGGIO SULLE PARTI RICHIESTE */
 #grey {
     color: rgb(128,128,128);
 }
-
+/* TOLTO MARGINI PER ATTACCARE IL TESTO */
 .NoMargin {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+/* COLORE DEL AUTORE */
 #writer {
     color: rgb(77,188,236);
 }
-
+/* CLASSE PER EVIDENZIAZIONE */
 .underline {
     background-color: rgb(255,255,0);
 }
-
+/* DIMENSIONI TABELLA */
 th, td {
     text-align: left;
     width: 15%;
 }
-
+/* COLORE INTESTAZIONE TABELLA */
 #header {
     background-color: rgb(32,169,229);
 }
-
+/* COLORE RIGHE TABELLA */
 tr:nth-child(odd) {
     background-color:rgb(177,229,242);
 }

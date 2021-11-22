@@ -6,66 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bonus.css">
 </head>
 <body>
+    <!-- INTESTAZIONE DELLA PAGINA -->
     <header>
-        <img src="img/logo.svg" alt="logo sito">
+        <img id="logo" src="img/logo.svg" alt="logo sito">
     </header>
-
-    <main>
-        <h1 class="NoMargin">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <h4 id="grey" class="NoMargin">Scritto da <span id="writer">The Booleaner</span></h4>
-        <h5 id="grey" class="NoMargin">il 10/10/2020</h5>
-        
-        <img src="/img/tim-1.jpg" alt="Tim Berners 1">
-        <img src="/img/tim-2.jpg" alt="Tim Berners 2">
-
-        <h5 class="NoMargin">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</h5>
-        <h5 class="NoMargin">2st Photo: Wikimedia, by Paul Clarke</h5>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum <span class="underline">exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur</span>. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     
-        <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores earum reprehenderit expedita accusamus commodi officia recusandae eum ipsum tenetur laboriosam, pariatur blanditiis ea? Soluta minus consectetur quos aut ab!</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat obcaecati dolorem voluptas, aliquid voluptatum ea? Aspernatur nesciunt nostrum odit quis accusantium eum maxime deleniti minima fuga fugiat, minus delectus quibusdam.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis reprehenderit voluptatum eius architecto similique hic fugiat voluptas quos unde veritatis fugit amet molestias quisquam, saepe quo iure enim magnam.</li>
-        </ul>
-        <table>
-            <!-- INTESTAZIONE TABELLA -->
-            <thead>
-                <tr id="header">
-                    <th>Lorem Ipsum dolor</th>
-                    <th>Lorem Ipsum dolor</th>
-                    <th>Lorem Ipsum dolor</th>
-                </tr>
-            </thead>
-            <!-- CORPO TABELLA -->
-            <tbody>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla provident ipsa repellendus a assumenda placeat accusantium, ex aliquid, autem natus tempora consequatur odio quod voluptatem. Laudantium quasi quod unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui soluta iure id fugit voluptate nam voluptatum, consequatur repudiandae hic in cupiditate pariatur.<span class="underline"> Quibusdam odio iure dignissimos, ratione blanditiis eligendi!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos praesentium enim delectus illum fugiat ad, odit dignissimos! Voluptate, impedit, nobis nesciunt quis quaerat dolore vel quasi ducimus, ab minima quia!</p>
-    </main>
-
-    <footer>
-        <h4 id="grey">Potrebbero interessarti</h4>
-        <img src="/img/monitor.jpg" alt="Monitor">
-        <br>
-        <img src="/img/graph.jpg" alt="Grafico">
-    </footer>
+    <div id="contenitore">
+        <main>
+            <!-- TITOLO E IMAGGINI -->
+            <h1 class="NoMargin">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+            <h4 id="grey" class="NoMargin">Scritto da <span id="writer">The Booleaner</span></h4>
+            <h5 id="grey" class="NoMargin">il 10/10/2020</h5>
+            <img src="/img/tim-1.jpg" alt="Tim Berners 1">
+            <img src="/img/tim-2.jpg" alt="Tim Berners 2">
+            <!-- DIDASCALIA FOTO -->
+            <h5 class="NoMargin">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</h5>
+            <h5 class="NoMargin">2st Photo: Wikimedia, by Paul Clarke</h5>
+            <!-- PICCOLO PARAGRAFO CON EVIDENZIAZIONE -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum <span class="underline">exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur</span>. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <!-- LISTA NON ORDINATA -->
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores earum reprehenderit expedita accusamus commodi officia recusandae eum ipsum tenetur laboriosam, pariatur blanditiis ea? Soluta minus consectetur quos aut ab!</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat obcaecati dolorem voluptas, aliquid voluptatum ea? Aspernatur nesciunt nostrum odit quis accusantium eum maxime deleniti minima fuga fugiat, minus delectus quibusdam.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis reprehenderit voluptatum eius architecto similique hic fugiat voluptas quos unde veritatis fugit amet molestias quisquam, saepe quo iure enim magnam.</li>
+            </ul>
+            <table>
+                <!-- INTESTAZIONE TABELLA -->
+                <thead>
+                    <tr id="header">
+                        <th>Lorem Ipsum dolor</th>
+                        <th>Lorem Ipsum dolor</th>
+                        <th>Lorem Ipsum dolor</th>
+                    </tr>
+                </thead>
+                <!-- CORPO TABELLA -->
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis saepe fugiat excepturi sit ab quisquam consequatur eveniet, impedit deserunt voluptatum, maiores dicta soluta facere veniam voluptate error totam iste sunt.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla provident ipsa repellendus a assumenda placeat accusantium, ex aliquid, autem natus tempora consequatur odio quod voluptatem. Laudantium quasi quod unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui soluta iure id fugit voluptate nam voluptatum, consequatur repudiandae hic in cupiditate pariatur.<span class="underline"> Quibusdam odio iure dignissimos, ratione blanditiis eligendi!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos praesentium enim delectus illum fugiat ad, odit dignissimos! Voluptate, impedit, nobis nesciunt quis quaerat dolore vel quasi ducimus, ab minima quia!</p>
+        </main>
+        <!-- PIE' DI PAGINA -->
+        <footer>
+            <h4 id="grey">Potrebbero interessarti</h4>
+            <img src="/img/monitor.jpg" alt="Monitor">
+            <br>
+            <img src="/img/graph.jpg" alt="Grafico">
+        </footer>
+    </div>
 </body>
 </html>
